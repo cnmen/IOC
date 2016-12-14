@@ -1,5 +1,8 @@
 # IOC
-控件布局注入（非编译期，反射原理）
+##控件布局注入（非编译期，反射原理）
+版本：2.3.5<br>
+作者：西门提督<br>
+日期：2016-12-14
 
 ###BaseActivity初始化操作
                 public class BaseActivity extends AppCompatActivity {
