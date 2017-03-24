@@ -1,10 +1,10 @@
 # IOC
-##控件布局注入（非编译期，反射原理）
+## 控件布局注入（非编译期，反射原理）
 版本：2.3.5<br>
 作者：西门提督<br>
 日期：2016-12-14
 
-###BaseActivity初始化操作
+### BaseActivity初始化操作
         public class BaseActivity extends AppCompatActivity {
 
             @Override
@@ -14,7 +14,7 @@
             }
         }
 
-###BaseFragment初始化操作
+### BaseFragment初始化操作
         public class BaseFragment extends Fragment { // V4包
 
             @Nullable
@@ -24,7 +24,7 @@
             }
         }
 
-###IOC的使用：
+### IOC的使用：
         @ContentView(R.layout.activity_login) // 注入布局（后续才起作用）
         public class LoginActivity extends BaseActivity {
 
